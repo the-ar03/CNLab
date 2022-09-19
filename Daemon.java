@@ -1,5 +1,4 @@
-// Java program to demonstrate the usage of
-// setDaemon() and isDaemon() method.
+// demonstrate the usage of setDaemon() and isDaemon() method.
 public class Daemon extends Thread{
 public Daemon(String name){
 super(name);
