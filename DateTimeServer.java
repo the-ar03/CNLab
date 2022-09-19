@@ -1,3 +1,4 @@
+// DateTimeServer
 import java.net.*;
 import java.io.*;
 import java.util.*;
@@ -22,6 +23,29 @@ sleep(1000);
 catch(IOException e)
 {
 System.out.println("----Client has Closed-----");
+}
+}
+}
+
+
+
+// DateTimeClient
+import java.net.*;
+import java.io.*;
+public class DateTimeClient{
+public static void main (String[] arg) throws Exception{
+try{
+Socket s=new Socket(InetAddress.getLocalHost(),1000);
+BufferedReader br = new BufferedReader(new 
+InputStreamReader(s.getInputStream()));
+String input;
+PrintWriter out=new PrintWriter(s.getOutputStream(),true);
+while((input=br.readLine())!=null){
+System.out.println(input);
+out.println("Date and Time Received ---- client Acknowledge ----");
+}
+}
+catch(Exception e){
 }
 }
 }
