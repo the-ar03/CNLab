@@ -44,3 +44,14 @@ t1.setDaemon(true);
 t2.start();
 }
 }
+
+
+
+// Daemon Program Algorithm:
+// 1. Start the program.
+// 2. Set Daemon() and isDaemon() method.
+// 3. Checking whether the thread is Daemon or not.
+// 4. Setting user thread t[i] to Daemon.
+// 5. Starting first 2 threads.
+// 6. Setting user thread t3 to daemon.
+// 7. Stop the program.
