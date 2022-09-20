@@ -12,3 +12,11 @@ f.write((char)i);
 }
 }
 }
+
+
+// HTTP Protpcol Implementation Algorithm:
+
+// 1. Create the URL with Http URL Connections 
+// 2. Define the Http Protocol for Client Connections. 
+// 3. Get the Http Connection.
+// 4. Print the URL for the Client
