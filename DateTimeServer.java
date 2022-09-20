@@ -49,3 +49,22 @@ catch(Exception e){
 }
 }
 }
+
+
+
+
+
+
+// Server Algorithm:
+// 1. Create instances for socket and server socket class.
+// 2. Use the port 8020 for TCP.
+// 3. Make the print stream object connect to the output stream using socket.
+// 4. Create an instance of the Date class and write it into the socket.
+// 5. Get IPAddress of the client using the socket and getInetAddress().
+
+
+// Client Algorithm:
+// 1. Create instances for socket class with the port Number 8020.
+// 2. Create an object of DataInputStream and make it to get data from server through the socket.
+// 3. Read the date object.
+// 4. Print the obtained date.
