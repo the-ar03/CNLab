@@ -46,3 +46,15 @@ System.out.println(br.readLine());
 }
 }
 }
+
+
+
+
+// Server Algorithm:
+// 1. Instances of vector class is used to keep track of number of clients that can be connected and currently logged. 
+// 2. The method that is responsible for sending the message to the clients is made synchronized. 
+// 3. Server is capable of keeping into account the number of users. It adds and removes the client from the vector list as and when the connections are established and terminated.
+
+
+// Client Algorithm:
+// 1. The client receives the name of the user and message of that user and sends it to client. Server then passes it on to all clients connected.
