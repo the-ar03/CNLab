@@ -50,3 +50,19 @@ System.out.println("The connection to the server has been reset");
 } 
 } 
 }
+
+
+
+
+// Server Algorithm:
+// 1. Create instances for the serversocket class and accept the server port 
+// 2. Read the filename to be opened 
+// 3. Send the file to the client
+
+
+
+// Client Algorithm:
+// 1. Create instance for the Socket class and establish connectivity with the server 
+// 2. Use the port number 4000
+// 3. Receive the file from the server
+// 4. Reset the connection with the server
