@@ -41,3 +41,17 @@ String msg=new String(dp.getData(),0,0,dp.getLength());
 System.out.println("Received data : " + msg);
 }
 }
+
+
+
+// Server Algorithm:
+// 1. Create instances for the serversocket class and accept the server port 
+// 2. Read the filename to be opened 
+// 3. Send the file to the client
+
+
+// Client Algorithm:
+// 1. Create instance for the Socket class and establish connectivity with the server 
+// 2. Use the port number 8000. 
+// 3. Receive the file from the server 
+// 4. Reset the connection with the server
